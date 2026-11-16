@@ -3,11 +3,11 @@ name: Integration
 on:
   push:
     paths:
-      - "function lab.py"        # <-- the .py file that unittests1.py tests
+      - "function lab.py"
       - "unittests1.py"
   pull_request:
     paths:
-      - "function lab.py"        # <-- same file as above
+      - "function lab.py"
       - "unittests1.py"
 
 jobs:

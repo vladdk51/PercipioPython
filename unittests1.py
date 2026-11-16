@@ -27,8 +27,6 @@ functions_lab = load_module()
 
 
 class TestFunctionLab(unittest.TestCase):
-    """Tests for the functions in "function lab.py"."""
-
     def test_get_force(self):
         self.assertEqual(functions_lab.get_force(2, 3), 6)
         self.assertEqual(functions_lab.get_force(0, 10), 0)
