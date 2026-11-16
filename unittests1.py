@@ -1,13 +1,9 @@
-"""Unit tests for "function lab.py" (physics and temperature conversion functions).
+"""Unit tests for "function lab.py" 
 
 Run with:
     python unittests1.py
 or:
     python -m unittest unittests1 -v
-
-The source file name contains a space, so it cannot be imported with a normal
-`import` statement. It is loaded with importlib instead. The module also prints
-things at import time (it is a lab script), so stdout is silenced while loading.
 """
 
 import contextlib
