@@ -31,7 +31,7 @@ f100_in_celsius = f_to_c(100)
 print(f100_in_celsius)
 
 def c_to_f (c_temp):
-  f_temp = c_temp  * 9/5 + 31
+  f_temp = c_temp  * 9/5 + 32
   return f_temp
 c0_in_fahrenheit  = c_to_f(0)
 print(c0_in_fahrenheit)
